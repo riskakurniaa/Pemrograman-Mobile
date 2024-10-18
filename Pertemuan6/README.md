@@ -507,11 +507,15 @@ Output:</br>
 
 # Tugas Praktikum
 1. Selesaikan Praktikum 1 sampai 4, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file README.md!
-  >**Jawab**
+  >**Jawab**</br>
     > Sudah saya menjawab dan menjelaskan pada praktikum 1, 2, 3 dan 4 diatas atau juga bisa mengklik link dibawah yang langsung diarahkan keatas secara otomatis
     >- [Praktikum 1](#praktikum-1-membangun-layout-di-flutter)<p>
     >- [Praktikum 2](#praktikum-2-implementasi-button-row)<p>
     >- [Praktikum 3](#praktikum-3-implementasi-text-section)<p>
-    >- [Praktikum 4](#praktikum-4-implementasi-image-section)<p>
+    >- [Praktikum 4](#praktikum-4-implementasi-image-section)<br>
 2. Silakan implementasikan di project baru "basic_layout_flutter" dengan mengakses sumber ini: https://docs.flutter.dev/codelabs/layout-basics
+  >**Jawab**</br>
+  > Berikut ini merupakan hasil outputnya:</br>
+  ![image](img/praktikum1.png)
+  >- [Link Repository](https://github.com/riskakurniaa/Pemrograman-Mobile/tree/pertemuan6/Pertemuan6/basic_layout_flutter)<br>
 3. Kumpulkan link commit repository GitHub Anda ke spreadsheet yang telah disediakan!
