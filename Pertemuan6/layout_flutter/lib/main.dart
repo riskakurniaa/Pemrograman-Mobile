@@ -55,6 +55,20 @@ class MyApp extends StatelessWidget {
       ],
     );
 
+    Widget textSection = Container(
+      padding: const EdgeInsets.all(32),
+      child: const Text(
+        'Pantai Balekambang adalah salah satu destinasi wisata populer di Malang, '
+        'terkenal dengan keindahan pantainya yang menakjubkan dan pura kecil yang '
+        'terletak di atas batu karang, mirip dengan Tanah Lot di Bali. '
+        'Dengan pasir putih yang membentang luas dan ombak yang tenang, '
+        'pantai ini menjadi tempat yang sempurna untuk bersantai sambil menikmati '
+        'suasana alam yang damai.\n'
+        'Riska Kurnia Triwulandari | 2241720039',
+        softWrap: true,
+      ),
+    );
+
     return MaterialApp(
       title: 'Flutter layout: Riska Kurnia Triwulandari | 2241720039',
       home: Scaffold(
@@ -65,6 +79,7 @@ class MyApp extends StatelessWidget {
           children: [
             titleSection,
             buttonSection,
+            textSection,
           ],
         ),
       ),

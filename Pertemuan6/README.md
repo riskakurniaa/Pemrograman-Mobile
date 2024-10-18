@@ -128,7 +128,7 @@ class MyApp extends StatelessWidget {
         ],
       ),
     );
-    
+
     return MaterialApp(
       title: 'Flutter layout: Riska Kurnia Triwulandari | 2241720039',
       home: Scaffold(
@@ -310,3 +310,45 @@ class MyApp extends StatelessWidget {
 
 Output:</br>
 ![image](img/gambar3.png)
+
+# Praktikum 3: Implementasi text section
+## Langkah 1: Buat class VerificationCodeInput
+Tentukan bagian teks sebagai variabel. Masukkan teks ke dalam Container dan tambahkan padding di sepanjang setiap tepinya.
+```dart
+Widget textSection = Container(
+  padding: const EdgeInsets.all(32),
+  child: const Text(
+    'Carilah teks di internet yang sesuai '
+    'dengan foto atau tempat wisata yang ingin '
+    'Anda tampilkan. '
+    'Tambahkan nama dan NIM Anda sebagai '
+    'identitas hasil pekerjaan Anda. '
+    'Selamat mengerjakan 🙂.',
+    softWrap: true,
+  ),
+);
+```
+
+## Langkah 2: Tambahkan variabel text section ke body
+Tambahkan widget variabel ``textSection`` ke dalam ``body``</br>
+Kode setelah langkah diselesaikan:
+```dart
+return MaterialApp(
+  title: 'Flutter layout: Riska Kurnia Triwulandari | 2241720039',
+  home: Scaffold(
+    appBar: AppBar(
+      title: const Text('Flutter layout demo'),
+    ),
+    body: Column(
+      children: [
+        titleSection,
+        buttonSection,
+        textSection,
+      ],
+    ),
+  ),
+);
+```
+
+Output:</br>
+![image](img/gambar4.png)
