@@ -519,3 +519,8 @@ Output:</br>
   ![image](img/praktikum1.png)
   >- [Link Repository](https://github.com/riskakurniaa/Pemrograman-Mobile/tree/pertemuan6/Pertemuan6/basic_layout_flutter)<br>
 3. Kumpulkan link commit repository GitHub Anda ke spreadsheet yang telah disediakan!
+
+# Praktikum 5: Membangun Navigasi di Flutter
+Berikut ini merupakan hasil outputnya:</br>
+![image](img/gambar6.png)
+[Link Repository dan Laporan](https://github.com/riskakurniaa/Pemrograman-Mobile/tree/pertemuan6/Pertemuan6/belanja)<br>
