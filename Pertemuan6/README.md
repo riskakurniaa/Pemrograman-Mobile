@@ -508,7 +508,7 @@ Output:</br>
 # Tugas Praktikum
 1. Selesaikan Praktikum 1 sampai 4, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file README.md!
   >**Jawab**</br>
-    > Sudah saya menjawab dan menjelaskan pada praktikum 1, 2, 3 dan 4 diatas atau juga bisa mengklik link dibawah yang langsung diarahkan keatas secara otomatis
+    > Sudah saya menjawab dan menjelaskan pada praktikum 1, 2, 3 dan 4 diatas atau juga bisa mengklik link dibawah yang langsung diarahkan keatas secara otomatis<br>
     >- [Praktikum 1](#praktikum-1-membangun-layout-di-flutter)<p>
     >- [Praktikum 2](#praktikum-2-implementasi-button-row)<p>
     >- [Praktikum 3](#praktikum-3-implementasi-text-section)<p>
@@ -523,4 +523,9 @@ Output:</br>
 # Praktikum 5: Membangun Navigasi di Flutter
 Berikut ini merupakan hasil outputnya:</br>
 ![image](img/gambar6.png)
+[Link Repository dan Laporan](https://github.com/riskakurniaa/Pemrograman-Mobile/tree/pertemuan6/Pertemuan6/belanja)<br>
+
+# Tugas Praktikum 2
+Berikut ini merupakan hasil outputnya:</br>
+![Video GIF](img/video2.gif)
 [Link Repository dan Laporan](https://github.com/riskakurniaa/Pemrograman-Mobile/tree/pertemuan6/Pertemuan6/belanja)<br>
