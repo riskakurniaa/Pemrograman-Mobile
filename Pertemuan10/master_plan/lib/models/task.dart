@@ -6,4 +6,6 @@ class Task {
     this.complete = false,
     this.description = '',
   });
+
+  copyWith({required bool complete}) {}
 }
