@@ -78,3 +78,13 @@ Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan co
 Jawab:</br>
 
 ![Video GIF](images/soal6.gif)
+
+## Soal 7
+> Anda akan melihat hasilnya dalam 3 detik berupa angka 6 lebih cepat dibandingkan praktikum sebelumnya menunggu sampai 9 detik.
+
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan **"W11: Soal 7"**.<br>
+
+Jawab:
+
+![Video GIF](images/soal7.gif)
+
