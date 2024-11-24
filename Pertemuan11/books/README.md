@@ -36,3 +36,19 @@ Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan co
 Jawab:
 
 ![Video GIF](images/soal3.gif)
+
+## Soal 4
+Jelaskan maksud kode langkah 1 dan 2 tersebut!<br>
+
+Jawab:</br>
+
+- Langkah 1: menambahkan tiga metode asinkron (`returnOneAsync`, `returnTwoAsync`, `returnThreeAsync`) yang masing-masing mensimulasikan tugas dengan penundaan 3 detik menggunakan `Future.delayed` dan mengembalikan nilai tertentu (1, 2, atau 3).
+
+- Langkah 2: menambahkan metode `count`, yang memanggil ketiga metode tersebut secara berurutan menggunakan `await`, menjumlahkan hasilnya, dan memperbarui UI dengan nilai total menggunakan setState. Metode ini mensimulasikan proses asinkron berurutan dan menampilkan hasil akhir setelah semua proses selesai. Total waktu eksekusi: 9 detik (karena pemanggilan dilakukan secara berurutan) dan hasil (1 + 2 + 3 = 6) diperbarui di UI.
+
+
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan **"W11: Soal 4"**.<br>
+
+Jawab:
+
+![Video GIF](images/soal4.gif)
