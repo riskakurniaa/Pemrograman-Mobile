@@ -65,6 +65,19 @@ class _FuturePageState extends State<FuturePage> {
     });
   }
 
+  // Praktikum 3
+  late Completer completer;
+  Future getNumber() {
+    completer = Completer<int>();
+    calculate();
+    return completer.future;
+  }
+
+  Future calculate() async {
+    await Future.delayed(const Duration(seconds: 5));
+    completer.complete(42);
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -88,7 +101,14 @@ class _FuturePageState extends State<FuturePage> {
                 // });
 
                 // Praktikum 2
-                count();
+                // count();
+
+                // Praktikum 3
+                getNumber().then((value) {
+                  setState(() {
+                    result = value.toString();
+                  });
+                });
               },
               child: const Text('GO!'),
             ),

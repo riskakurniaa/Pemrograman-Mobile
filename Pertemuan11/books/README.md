@@ -52,3 +52,16 @@ Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan co
 Jawab:
 
 ![Video GIF](images/soal4.gif)
+
+## Soal 5
+Jelaskan maksud kode langkah 2 tersebut!<br>
+
+Jawab:</br>
+
+Langkah 2 menambahkan mekanisme **`Completer`** yang memungkinkan kontrol manual terhadap penyelesaian sebuah `Future`. Variabel `completer` dideklarasikan sebagai `Completer<int>`, yang akan menghasilkan nilai integer. Method `getNumber` membuat instance `Completer` baru dan memulai proses asinkron melalui method `calculate`. `getNumber` mengembalikan `Future` dari `completer` yang akan selesai setelah `calculate` dipanggil. Dalam `calculate`, terdapat simulasi penundaan selama 5 detik menggunakan `Future.delayed`, setelah itu `completer.complete(42)` dipanggil untuk menyelesaikan `Future` dengan nilai `42`. Mekanisme ini memungkinkan kontrol eksplisit kapan dan bagaimana `Future` diselesaikan.
+
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan **"W11: Soal 5"**.<br>
+
+Jawab:</br>
+
+![Video GIF](images/soal5.gif)
