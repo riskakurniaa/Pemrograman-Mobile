@@ -65,3 +65,16 @@ Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan co
 Jawab:</br>
 
 ![Video GIF](images/soal5.gif)
+
+## Soal 6
+Jelaskan maksud perbedaan kode langkah 2 dengan langkah 5-6 tersebut!<br>
+
+Jawab:</br>
+
+Perbedaan utama antara Langkah 2 dengan Langkah 5-6 terletak pada penanganan kesalahan dan keandalan logika asinkron. Pada Langkah 2, method `calculate` hanya mensimulasikan operasi asinkron dengan `Future.delayed` selama 5 detik dan langsung menyelesaikan `Future` menggunakan `completer.complete(42)`. Namun, metode ini tidak memiliki mekanisme untuk menangani kesalahan jika terjadi error, sehingga rentan terhadap crash atau perilaku tak terduga. Sebaliknya, pada Langkah 5-6, method `calculate2` menambahkan blok **`try-catch`**, memungkinkan penangkapan kesalahan selama operasi asinkron. Jika terjadi error, method ini memanggil `completer.completeError({})` untuk menandai kegagalan. Selain itu, kode pada `onPressed` diperbarui untuk menangani dua skenario: ketika operasi berhasil, hasil (`42`) diperbarui di UI, dan jika terjadi error, pesan "An error occurred" ditampilkan. Perubahan ini meningkatkan keandalan aplikasi dengan menyediakan penanganan error yang eksplisit dan mencegah aplikasi crash.<br>
+
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan **"W11: Soal 6"**.<br>
+
+Jawab:</br>
+
+![Video GIF](images/soal6.gif)
