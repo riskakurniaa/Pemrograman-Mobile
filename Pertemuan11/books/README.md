@@ -21,3 +21,18 @@ Jawab:
 
 ![image](images/soal2a.png) <br>
 ![image](images/soal2b.png)
+
+## Soal 3
+Jelaskan maksud kode langkah 5 tersebut terkait `substring` dan `catchError`!<br>
+
+Jawab:</br>
+
+- `substring`: `substring(0, 450)` mengambil sebagian data dari respons HTTP. Dalam hal ini, hanya karakter pertama hingga karakter ke-450 dari body respons HTTP yang diambil.
+
+- `catchError`: menangkap dan menangani kesalahan (error) yang terjadi saat memanggil Future (fungsi asinkron `getData`). Kesalahan ini bisa berupa kegagalan koneksi, URL tidak valid, atau respons yang tidak sesuai.
+
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan **"W11: Soal 3"**.<br>
+
+Jawab:
+
+![Video GIF](images/soal3.gif)
