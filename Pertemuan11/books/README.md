@@ -100,3 +100,11 @@ Perbedaan utama antara Langkah 1 dan Langkah 4 adalah pendekatan untuk menjalank
 - Pada Langkah 4, **Future.wait** digunakan untuk menjalankan beberapa `Future` yang sudah diketahui sebelumnya dalam bentuk daftar. Semua `Future` berjalan bersamaan, dan ketika selesai, hasilnya dikembalikan dalam bentuk `List` tanpa memerlukan pengelolaan tambahan. Pendekatan ini lebih sederhana dan efisien untuk kasus statis di mana daftar `Future` sudah pasti. 
 
 Jadi, **FutureGroup** cocok untuk kebutuhan dinamis, sedangkan **Future.wait** lebih ideal untuk operasi yang sederhana dan tetap.
+
+## Soal 9
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan **"W11: Soal 9"**.<br>
+
+Jawab:
+
+![image](images/soal9.png) <br>
+![Video GIF](images/soal9.gif)

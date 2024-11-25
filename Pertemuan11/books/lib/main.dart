@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart';
 import 'package:http/http.dart' as http;
 import 'dart:async';
-import 'package:async/async.dart';
+// import 'package:async/async.dart';
 
 void main() {
   runApp(const MyApp());
@@ -112,6 +112,12 @@ class _FuturePageState extends State<FuturePage> {
     });
   }
 
+  // Praktikum 5
+  Future returnError() async {
+    await Future.delayed(const Duration(seconds: 2));
+    throw Exception('Something terrible happened!');
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -147,7 +153,21 @@ class _FuturePageState extends State<FuturePage> {
                 // });
 
                 // Praktikum 4
-                returnFG();
+                // returnFG();
+
+                // Praktikum 5
+                returnError()
+                    .then((value) => {
+                          setState(() {
+                            result = 'success';
+                          })
+                        })
+                    .catchError((onError) => {
+                          setState(() {
+                            result = onError.toString();
+                          })
+                        })
+                    .whenComplete(() => print('complete'));
               },
               child: const Text('GO!'),
             ),
