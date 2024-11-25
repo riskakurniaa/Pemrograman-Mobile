@@ -117,3 +117,8 @@ Jawab:</br>
 Method `returnError` mensimulasikan proses asinkron dengan menunda 2 detik menggunakan `Future.delayed`, lalu melemparkan sebuah exception dengan pesan **"Something terrible happened!"**. Di sisi lain, `handleError` menangkap exception ini menggunakan blok `try-catch`, kemudian memperbarui nilai `result` dengan pesan error tersebut dan menampilkan hasil di layar aplikasi. Blok `finally` memastikan pesan **"Complete"** selalu dicetak di konsol, terlepas dari apakah operasi berhasil atau gagal. Perbedaan utama antara langkah 1 dan 4 adalah bahwa `returnError` hanya mensimulasikan dan melempar error tanpa penanganan, sementara `handleError` menambahkan penanganan eksplisit terhadap kesalahan, memperbarui UI dengan pesan error, dan memastikan operasi tetap selesai dengan log tambahan, sehingga aplikasi lebih tangguh dan tidak mengalami crash.
 
 ![Video GIF](images/soal10.gif)
+
+## Soal 11
+Tambahkan **nama panggilan Anda** pada tiap properti `title` sebagai identitas pekerjaan Anda.
+
+![image](images/soal11.png)
