@@ -88,3 +88,15 @@ Jawab:
 
 ![Video GIF](images/soal7.gif)
 
+## Soal 8
+Jelaskan maksud perbedaan kode langkah 1 dan 4!<br>
+
+Jawab:</br>
+
+Perbedaan utama antara Langkah 1 dan Langkah 4 adalah pendekatan untuk menjalankan beberapa operasi asinkron secara bersamaan. 
+
+- Pada Langkah 1, **FutureGroup** digunakan untuk mengelola sekelompok `Future` secara dinamis. `Future` ditambahkan satu per satu menggunakan metode `add`, dan proses ditutup dengan `close()` sebelum hasilnya dikumpulkan. Pendekatan ini fleksibel jika jumlah `Future` tidak tetap dan perlu ditambahkan secara dinamis.
+
+- Pada Langkah 4, **Future.wait** digunakan untuk menjalankan beberapa `Future` yang sudah diketahui sebelumnya dalam bentuk daftar. Semua `Future` berjalan bersamaan, dan ketika selesai, hasilnya dikembalikan dalam bentuk `List` tanpa memerlukan pengelolaan tambahan. Pendekatan ini lebih sederhana dan efisien untuk kasus statis di mana daftar `Future` sudah pasti. 
+
+Jadi, **FutureGroup** cocok untuk kebutuhan dinamis, sedangkan **Future.wait** lebih ideal untuk operasi yang sederhana dan tetap.
