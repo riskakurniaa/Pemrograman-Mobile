@@ -122,3 +122,20 @@ Method `returnError` mensimulasikan proses asinkron dengan menunda 2 detik mengg
 Tambahkan **nama panggilan Anda** pada tiap properti `title` sebagai identitas pekerjaan Anda.
 
 ![image](images/soal11.png)
+
+## Soal 12
+>Jika Anda tidak melihat animasi loading tampil, kemungkinan itu berjalan sangat cepat. Tambahkan delay pada method `getPosition()` dengan kode `await Future.delayed(const Duration(seconds: 3));`<br>
+
+Apakah Anda mendapatkan koordinat GPS ketika run di browser? Mengapa demikian?<br>
+
+Jawab:</br>
+
+ ![image](images/soal12a.gif)
+
+- Pada chrome saya bisa mendapat koordinat GPS, karena chrome mendukung berbagai API web yang memungkinkan akses ke berbagai perangkat keras, termasuk GPS (Geolocation API). Saya juga mengizinkan chrome untuk dapat menggunakan Geolocation API untuk mendapatkan koordinat geografis (latitude dan longitude).<br>
+
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan **"W11: Soal 12"**.<br>
+
+Jawab:</br>
+
+ ![Video GIF](images/soal12.gif)
