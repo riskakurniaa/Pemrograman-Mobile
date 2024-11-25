@@ -118,6 +118,18 @@ class _FuturePageState extends State<FuturePage> {
     throw Exception('Something terrible happened!');
   }
 
+  Future handleError() async {
+    try {
+      await returnError();
+    } catch (error) {
+      setState(() {
+        result = error.toString();
+      });
+    } finally {
+      print('Complete');
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -156,18 +168,19 @@ class _FuturePageState extends State<FuturePage> {
                 // returnFG();
 
                 // Praktikum 5
-                returnError()
-                    .then((value) => {
-                          setState(() {
-                            result = 'success';
-                          })
-                        })
-                    .catchError((onError) => {
-                          setState(() {
-                            result = onError.toString();
-                          })
-                        })
-                    .whenComplete(() => print('complete'));
+                // returnError()
+                //     .then((value) => {
+                //           setState(() {
+                //             result = 'success';
+                //           })
+                //         })
+                //     .catchError((onError) => {
+                //           setState(() {
+                //             result = onError.toString();
+                //           })
+                //         })
+                //     .whenComplete(() => print('complete'));
+                handleError();
               },
               child: const Text('GO!'),
             ),
