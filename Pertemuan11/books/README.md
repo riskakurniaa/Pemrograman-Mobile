@@ -156,3 +156,20 @@ Jawab:</br>
 ![Video GIF](images/soal13.gif)
 
 Seperti yang Anda lihat, menggunakan FutureBuilder lebih efisien, clean, dan reactive dengan Future bersama UI.
+
+## Soal 14
+Apakah ada perbedaan UI dengan langkah sebelumnya? Mengapa demikian?<br>
+
+Jawab:</br>
+
+- Tidak ada perbedaan UI dengan langkah sebelumnya, karena pada langkah ini hanya menambahkan handling error `snapshot.hasError`
+
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 14".<br>
+
+Jawab:</br>
+
+- Ketika GPS tidak diaktifkan
+![Video GIF](images/soal14a.gif)
+
+- Ketika GPS diaktifkan
+![Video GIF](images/soal14b.gif)
