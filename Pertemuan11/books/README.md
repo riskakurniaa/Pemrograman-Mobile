@@ -168,14 +168,16 @@ Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan co
 
 Jawab:</br>
 
-- Ketika GPS tidak diaktifkan
+- Ketika GPS tidak diaktifkan<br>
+
 ![Video GIF](images/soal14a.gif)
 
-- Ketika GPS diaktifkan
+- Ketika GPS diaktifkan<br>
+
 ![Video GIF](images/soal14b.gif)
 
 ## Soal 15
-Tambahkan **nama panggilan** Anda pada tiap properti title sebagai identitas pekerjaan Anda.<br>
+Tambahkan **nama panggilan** Anda pada tiap properti `title` sebagai identitas pekerjaan Anda.<br>
 
 Jawab:</br>
 
@@ -186,3 +188,24 @@ Silakan ganti dengan warna tema favorit Anda.<br>
 Jawab:</br>
 
 ![image](images/soal15b.png)
+
+## Soal 16
+Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?<br>
+
+Jawab:</br>
+
+![Video GIF](images/soal16a.gif) <br>
+
+- Yang terjadi, warna akan berubah setiap button diklik. Warna yang mengalami perubahan setiap kali tombol ditekan terjadi karena cara implementasi dalam kode Flutter yang telah diprogram sebelumnya. Pada tampilan awal, yaitu `NavigationFirst`, ketika tombol "Change Color" ditekan, fungsi `_navigateAndGetColor` dipanggil. Fungsi ini menggunakan Navigator.push untuk membuka tampilan kedua, `NavigationSecond`, di mana pengguna dapat memilih warna dari tiga opsi yang tersedia (Merah, Hijau, atau Biru). Setelah memilih warna, pengguna kembali ke tampilan pertama, dan warna yang telah dipilih dikirimkan kembali melalui `Navigator.pop`.<br>
+
+Gantilah 3 warna pada langkah 5 dengan warna favorit Anda!<br>
+
+Jawab:</br>
+
+![image](images/soal16b.png)
+
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan **"W11: Soal 16"**.<br>
+
+Jawab:</br>
+
+![Video GIF](images/soal16c.gif)
