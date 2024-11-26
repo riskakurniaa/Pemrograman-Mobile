@@ -1,5 +1,6 @@
 # Pemrograman Asynchronous
 
+## Praktikum 1: Mengunduh Data dari Web Service (API)
 ## Soal 1
 Tambahkan **nama panggilan Anda** pada `title` app sebagai identitas hasil pekerjaan Anda.<br>
 Jawab:
@@ -37,6 +38,8 @@ Jawab:
 
 ![Video GIF](images/soal3.gif)
 
+## Praktikum 2: Menggunakan await/async untuk menghindari callbacks
+
 ## Soal 4
 Jelaskan maksud kode langkah 1 dan 2 tersebut!<br>
 
@@ -52,6 +55,8 @@ Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan co
 Jawab:
 
 ![Video GIF](images/soal4.gif)
+
+## Praktikum 3: Menggunakan Completer di Future
 
 ## Soal 5
 Jelaskan maksud kode langkah 2 tersebut!<br>
@@ -79,6 +84,8 @@ Jawab:</br>
 
 ![Video GIF](images/soal6.gif)
 
+## Praktikum 4: Memanggil Future secara paralel
+
 ## Soal 7
 > Anda akan melihat hasilnya dalam 3 detik berupa angka 6 lebih cepat dibandingkan praktikum sebelumnya menunggu sampai 9 detik.
 
@@ -101,6 +108,8 @@ Perbedaan utama antara Langkah 1 dan Langkah 4 adalah pendekatan untuk menjalank
 
 Jadi, **FutureGroup** cocok untuk kebutuhan dinamis, sedangkan **Future.wait** lebih ideal untuk operasi yang sederhana dan tetap.
 
+## Praktikum 5: Menangani Respon Error pada Async Code
+
 ## Soal 9
 Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan **"W11: Soal 9"**.<br>
 
@@ -117,6 +126,8 @@ Jawab:</br>
 Method `returnError` mensimulasikan proses asinkron dengan menunda 2 detik menggunakan `Future.delayed`, lalu melemparkan sebuah exception dengan pesan **"Something terrible happened!"**. Di sisi lain, `handleError` menangkap exception ini menggunakan blok `try-catch`, kemudian memperbarui nilai `result` dengan pesan error tersebut dan menampilkan hasil di layar aplikasi. Blok `finally` memastikan pesan **"Complete"** selalu dicetak di konsol, terlepas dari apakah operasi berhasil atau gagal. Perbedaan utama antara langkah 1 dan 4 adalah bahwa `returnError` hanya mensimulasikan dan melempar error tanpa penanganan, sementara `handleError` menambahkan penanganan eksplisit terhadap kesalahan, memperbarui UI dengan pesan error, dan memastikan operasi tetap selesai dengan log tambahan, sehingga aplikasi lebih tangguh dan tidak mengalami crash.
 
 ![Video GIF](images/soal10.gif)
+
+## Praktikum 6: Menggunakan Future dengan StatefulWidget
 
 ## Soal 11
 Tambahkan **nama panggilan Anda** pada tiap properti `title` sebagai identitas pekerjaan Anda.
@@ -138,9 +149,11 @@ Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan co
 
 Jawab:</br>
 
- ![Video GIF](images/soal12.gif)
+![Video GIF](images/soal12.gif)
 
- ## Soal 13
+## Praktikum 7: Manajemen Future dengan FutureBuilder
+
+## Soal 13
 Apakah ada perbedaan UI dengan praktikum sebelumnya? Mengapa demikian?<br>
 
 Jawab:</br>
@@ -176,6 +189,8 @@ Jawab:</br>
 
 ![Video GIF](images/soal14b.gif)
 
+## Praktikum 8: Navigation route dengan Future Function
+
 ## Soal 15
 Tambahkan **nama panggilan** Anda pada tiap properti `title` sebagai identitas pekerjaan Anda.<br>
 
@@ -209,3 +224,26 @@ Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan co
 Jawab:</br>
 
 ![Video GIF](images/soal16c.gif)
+
+## Praktikum 9: Memanfaatkan async/await dengan Widget Dialog
+
+## Soal 17
+Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?<br>
+
+Jawab:</br>
+
+![Video GIF](images/soal17a.gif)<br>
+
+- Terjadi perubahan warna latar belakang layar ketika memilih warna dari dialog setelah mengklik tombol "Change Color". Mekanisme ini dipicu oleh pembaruan nilai variabel "color" dalam fungsi `_showColorDialog`. Dengan menggunakan `setState`, widget diperbaharui, sehingga memicu pembangunan ulang dan menghasilkan tampilan layar yang mencerminkan perubahan warna yang baru dipilih.
+
+Gantilah 3 warna pada langkah 3 dengan warna favorit Anda!<br>
+
+Jawab:</br>
+
+![image](images/soal17b.png)
+
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan **"W11: Soal 17"**.<br>
+
+Jawab:</br>
+
+![Video GIF](images/soal17c.gif)
