@@ -164,7 +164,7 @@ Jawab:</br>
 
 - Tidak ada perbedaan UI dengan langkah sebelumnya, karena pada langkah ini hanya menambahkan handling error `snapshot.hasError`
 
-Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 14".<br>
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan **"W11: Soal 14"**.<br>
 
 Jawab:</br>
 
@@ -173,3 +173,16 @@ Jawab:</br>
 
 - Ketika GPS diaktifkan
 ![Video GIF](images/soal14b.gif)
+
+## Soal 15
+Tambahkan **nama panggilan** Anda pada tiap properti title sebagai identitas pekerjaan Anda.<br>
+
+Jawab:</br>
+
+![image](images/soal15a.png)
+
+Silakan ganti dengan warna tema favorit Anda.<br>
+
+Jawab:</br>
+
+![image](images/soal15b.png)
